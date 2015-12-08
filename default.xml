@@ -15,6 +15,10 @@
   <remote revision="refs/heads/Mmm"
            name="haxynox"
            fetch="https://github.com/haxynox" />
+           
+    <remote revision="refs/heads/aosp-6.0"
+           name="Alectradar"
+           fetch="https://github.com/Alectradar" />         
 
   <project path="build" name="haxynox_build" remote="haxynox" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -473,11 +477,11 @@
   <project path="external/stlport" name="android_external_stlport" remote="haxynox" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" />
   
-  <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
+  <project path="platform_manifest" name="platform_manifest" remote="Alectradar" />
   
 <!-- Haxynox device trees -->
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="haxynox" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="Alectradar" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="haxynox" />
   
 <!-- Haxynox Vendor blobs -->
