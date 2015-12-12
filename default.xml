@@ -503,7 +503,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="haxynox" />
   
 <!-- kernel -->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="haxynox" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="Alectradar" />
   
 <!-- system/* -->
   <project path="system/core" name="android_system_core" remote="haxynox" groups="pdk" />
